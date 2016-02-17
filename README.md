@@ -1,4 +1,4 @@
-http://tarunb.me
+http://tarunbod.github.io
 ===========================
 
 My Personal Website
