@@ -1,4 +1,3 @@
-http://tarunbod.github.io
-===========================
+# <http://tarunbod.github.io>
 
 My Personal Website
