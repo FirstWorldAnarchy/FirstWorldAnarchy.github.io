@@ -1,11 +1,13 @@
-@import url(http://fonts.googleapis.com/css?family=Abel);
+/*@import url(http://fonts.googleapis.com/css?family=Abel);*/
 html, body {
     width: 100%;
     height: 100%;
     font-family: "Abel", Helvetica, Arial;
+    color: white;
+    background-color: black;
 }
 
-.earth {
+/*.earth {
     background: url(../res/img/background-space.jpeg);
     background-size: cover;
     background-attachment: fixed;
@@ -99,4 +101,19 @@ p {
 .fadeInUp {
     -webkit-animation-name: fadeInUp;
     animation-name: fadeInUp;
+}*/
+
+.container {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.text-vertical-center {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+h1, h2 {
+
 }
