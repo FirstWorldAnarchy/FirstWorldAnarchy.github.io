@@ -1,9 +1,10 @@
-// let offset = 50;
-//
-// $(document).ready(function() {
-//     console.log('lmao');
-//     $('.link').each(function(i) {
-//         // console.log(arguments);
-//         $(this).css('left', (offset * i) + 'px');
-//     });
-// });
+let nameStr = 'Tarun Boddupalli';
+let profStr = 'Student Developer';
+
+$(document).ready(function() {
+    for (var i = 0; i < nameStr.length; i++) {
+        setTimeout(function() {
+            $('#name').text(nameStr.substr(0, $('#name').text().length + 1));
+        }, 200 + i * 75);
+    }
+});
