@@ -7,6 +7,7 @@ html, body {
 
     background-color: white;
     overflow: hidden;
+    /* overflow-x: hidden; */
 }
 
 .container {
@@ -64,7 +65,7 @@ html, body {
 
 .content {
     padding: 15px;
-    width: 60%;
+    width: 80%;
 }
 
 .content h5 {
@@ -75,8 +76,31 @@ html, body {
     display: flex;
     justify-content: space-around;
     width: 100%;
-    height: 300px;
-    border: 1px dashed black;
+}
+
+.project {
+    height: 290px;
+    padding: 10px;
+}
+
+.project-img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50pc;
+    border: 2px solid black;
+    margin-bottom: 5px;
+    background-size: cover;
+    transition: 0.2s;
+}
+
+.project-img:hover {
+    width: 80px;
+    height: 80px;
+}
+
+.project-title {
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 .link {
@@ -102,4 +126,23 @@ h5 {
 
 p {
     font-weight: 450;
+}
+
+/* project images */
+#pimg1 {
+    background-color: black;
+    background-image: url('../res/img/hackedison.png');
+}
+
+#pimg2 {
+    background-color: #191921;
+    background-image: url('../res/img/itgimc.png');
+}
+
+#pimg3 {
+    background-image: url('../res/img/drive.jpg');    
+}
+
+#pimg4 {
+    background-image: url('../res/img/wip.jpg');
 }
