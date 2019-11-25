@@ -3,31 +3,76 @@
 <head>
     <title>Tarun Boddupalli</title>
 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+
     <link rel="apple-touch-icon-precomposed" sizes="152x152" href="res/img/logo.png">
     <link rel="shortcut icon" href="res/img/logo.png">
 
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/all.min.css">
     <link rel="stylesheet" type="text/css" href="css/main.css" />
 
-    <script src="js/jquery.min.js"></script>
-    <script src="js/main.js"></script>
-
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <div class="container">
-        <div class="text-vertical-center">
-            <h1><span id="name">T</span><span id="cursor">|</span></h1>
-            <h2 id="prof"><em>Programmer</em></h2>
-            <div class="links">
-                <p>
-                    <a href="https://twitter.com/tarunbod"><span class="link fa fa-twitter"></span></a>
-                    <a href="https://github.com/tarunbod"><span class="link fa fa-github"></span></a>
-                    <a href="mailto:tarunbod@gmail.com"><span class="link fa fa-envelope"></span></a>
-                    <a href="resume.pdf"><span class="link fa fa-file-pdf-o"></span></a>
-                </p>
-            </div>
+<div class="container">
+    <div class="sidebar">
+        <div id="image"></div>
+        <h1 id="name">Tarun Boddupalli</h1>
+        <h2 id="prof">Programmer</h2>
+        <div class="links">
+            <div class="link"><a href="https://twitter.com/tarunbod"><span class="link fab fa-twitter"></span></a></div>
+            <div class="link"><a href="https://github.com/tarunbod"><span class="link fab fa-github"></span></a></div>
+            <div class="link"><a href="mailto:tarunbod@gmail.com"><span class="link fas fa-envelope"></span></a></div>
+            <div class="link"><a href="https://www.linkedin.com/in/tarun-boddupalli-232457164/"><span class="link fab fa-linkedin"></span></a></div>
+            <div class="link"><a href="resume.pdf"><span class="link fas fa-file-alt"></span></a></div>
         </div>
     </div>
+    <div class="content">
+        <h5>About Me</h5>
+        <p>I am a rising sophomore at Rutgers University in New Brunswick, NJ, studying computer science 
+            and mathematics. I have a passion for technology and learning in general. I'm a quick thinker
+            and problem solver, and I greet new challenges with open arms. Currently I'm employed at
+            my university as a Java programmer for the <a href="https://www.cs.rutgers.edu/lcsr/">Lab of CS Research.</a></p>
+        <h5>Projects</h5>
+        <p>Here are a few things I've worked on in the past:</p>
+        <div class="projects">
+            <div class="project">
+                <a href="http://hackedison.github.io"><div class="project-img" id="pimg1"></div></a>
+                <div class="project-title">HackEdison</div>
+                <div class="project-description">A small website to promote my high school's local hackathon back in 2017.
+                    Built using pure HTML and CSS.</div>
+            </div>
+            <div class="project">
+                <a href="http://isthatguyinmyclass.herokuapp.com"><div class="project-img" id="pimg2"></div></a>
+                <div class="project-title">IsThatGuyInMyClass</div>
+                <div class="project-description">A web app I built with a fellow student to help find classmates using your
+                    class schedule. A great way to find new friends.</div>
+            </div>
+            <div class="project">
+                <a href="https://devpost.com/software/dr-ve"><div class="project-img" id="pimg3"></div></a>
+                <div class="project-title">Dr!ve</div>
+                <div class="project-description">An app I built with a team at HackBCA 3 to alert irresponsible drivers if they
+                    aren't putting enough of their attention on the road. This app won 4 awards, including Intel's Code for Good award.</div>
+            </div>
+            <div class="project">
+                <a href="#"><div class="project-img" id="pimg4"></div></a>
+                <div class="project-title">WIP</div>
+                <div class="project-description">I'm currently working with a friend on a service that uses machine learning to remove biased
+                    information from news sources. I believe this technology can be extremely helpful for the average citizen, in a
+                    time where reliable news sources can be hard to find.</div>
+            </div>
+        </div>
+        <h5>Contact</h5>
+        <p class="mobile-text">
+            <span>Links to my various social media outlets and resume are available on the left.</span>
+            <span>Links to my various social media outlets and resume are available at the top of the page.</span>
+        </p>
+    </div>
+</div>
 </body>
 </html>
