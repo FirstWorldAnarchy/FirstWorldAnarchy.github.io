@@ -84,7 +84,8 @@ html, body {
 
 .projects {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
+    flex-wrap: wrap;
     width: 100%;
 }
 
@@ -96,6 +97,7 @@ html, body {
 
 .project {
     padding: 10px;
+    flex-basis: 25%;
 }
 
 @media only screen and (max-width: 768px) {
@@ -178,5 +180,9 @@ p.mobile-text span:nth-last-child(1) {
 }
 
 #pimg4 {
+    background-image: url('../res/img/cindr.png');
+}
+
+#pimg5 {
     background-image: url('../res/img/wip.jpg');
 }
